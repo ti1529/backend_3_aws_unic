@@ -66,3 +66,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'concurrent-ruby', '1.3.4'
 
 gem 'unicorn'  # 追記
+
+gem 'image_processing', '~> 1.2'
+
+gem 'aws-sdk-s3', require: false
+gem 'dotenv-rails'
