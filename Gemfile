@@ -43,10 +43,12 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  
+
   gem "capistrano", "~> 3.10", require: false # 追記
   gem "capistrano-rails", "~> 1.6", require: false # 追記
   gem 'capistrano-safe-deploy-to' # 追記
+
+  gem 'capistrano3-unicorn'   # 追記
 
 end
 
@@ -62,3 +64,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'concurrent-ruby', '1.3.4'
+
+gem 'unicorn'  # 追記
